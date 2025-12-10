@@ -1,0 +1,47 @@
+body{
+font-family:Arial,sans-serif;
+background:#ccffff;
+}
+form{
+widht;500px;
+
+}
+label{
+margin-bottom:5px;
+}
+input,select{
+widht:100%;
+border-radius:25px;
+}
+label{
+margin-bottom:5px;
+}
+input, select {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+button{
+padding: 10px;
+background: #007bff;
+border: none;
+border-radius: 5px;
+color: #fff;
+font-cize: 16px;
+cursor: pointer;
+}
+button:hover {
+background: #0056b3;
+}
+</form>
+<h2>Зворотній зв'язок</h2>
+<form action="submit_form.php"method="post">
+<label for="name">Ім'я:</label>
+<input type="text" id="name">
+<label for="email">Eлектронна пошта:</label>
+<input typr="email" id="email">
+<label for="message">Повідомлення:</label>
+<textarea id="message" rows="4"></textarea>
+<button type="submit">Відправити</button>
+</form>
